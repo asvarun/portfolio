@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <span>Portfolio</span>
+      <ul class="link-list">
+        <li class="link"><a href="#about">About</a></li>
+        <li class="link"><a href="#skills">Skills</a></li>
+        <li class="link"><a href="#projects">Projects</a></li>
+        <li class="link"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header class="header">
+      <h1 class="header-title">Header</h1>
+    </header>
+
+    <main>
+      <section class="section">
+        <h2 id="about">About Me</h2>
+        <p id="para-text" class="section-content"></p>
+      </section>
+
+      <section class="section section-accent">
+        <h2 id="skills">Skills</h2>
+        <ul class="section-content skills-section">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Angular</li>
+          <li>React</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2 id="projects">Projects</h2>
+        <ul class="section-content project-section">
+          <li class="project-list-item">
+            <img src="https://source.unsplash.com/xfngap_DToE/150x150" alt="test" />
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ipsa, voluptate quae
+              dolore facilis quas unde ab corporis, placeat, iste nam perspiciatis ipsam? Sit ea
+              odio esse. Eveniet, veritatis inventore?
+            </div>
+          </li>
+
+          <li class="project-list-item">
+            <img src="https://source.unsplash.com/HeEJU3nrg_0/150x150" alt="test" />
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ipsa, voluptate quae
+              dolore facilis quas unde ab corporis, placeat, iste nam perspiciatis ipsam? Sit ea
+              odio esse. Eveniet, veritatis inventore?
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2 id="contact">Contact Me</h2>
+        <form class="section-content contact-section">
+          <div>
+            <label for="">Name</label>
+          </div>
+          <input class="input" type="text" />
+
+          <div>
+            <label for="">Email</label>
+          </div>
+          <input class="input" type="email" />
+
+          <div>
+            <label for="">Message</label>
+          </div>
+          <textarea
+            class="input input-no-resize"
+            spellcheck="false"
+            name="message"
+            cols="22"
+            rows="3"
+          ></textarea>
+          <div>
+            <button class="btn" type="submit">Send</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">Footer</footer>
+  </body>
+</html>
