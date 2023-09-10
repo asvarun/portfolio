@@ -23,10 +23,10 @@ const fetchPlaceholderParagraph = async () => {
   }
 };
 
-async function updateParagraph() {
+const updateParagraph = async () => {
   const paragraph = await fetchPlaceholderParagraph();
   const paragraphElement = document.querySelector('#para-text');
   paragraphElement.textContent = paragraph + '. ' + about;
-}
+};
 
 updateParagraph();
